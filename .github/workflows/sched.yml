@@ -1,6 +1,6 @@
 name: sched-6.1
 on:
-  schedule: [{ cron: "*/10 * * * *" }]
+  schedule: [{ cron: "3-59/10 * * * *" }]
   workflow_dispatch:
 permissions: { contents: write }
 jobs:
